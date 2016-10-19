@@ -3,45 +3,45 @@
 Перевод популярного gist - [The Best of the Best Practices (BOBP) Guide for Python][original]
 
 
-## In General
+## О главном
 
-### Values
+### Цитаты и ценности
 
-- "Build tools for others that you want to be built for you." - Kenneth Reitz
-- "Simplicity is alway better than functionality." - Pieter Hintjens
-- "Fit the 90% use-case. Ignore the nay sayers." - Kenneth Reitz
-- "Beautiful is better than ugly." - [PEP 20][]
-- Build for open source (even for closed source projects).
+- "Создавай другим такие инструменты, какими сам хотел бы пользоваться." - Kenneth Reitz
+- "Простота всегда лучше функциональности." - Pieter Hintjens
+- "Соответсвуй требованиям хотя бы на 90%. Игнорируй скептиков." - Kenneth Reitz
+- "Красиво лучше, чем уродливо." - [PEP 20][]
+- Пиши так, как-будто пишешь проект с открытыми исходниками (даже если проект таким не является).
 
-### General Development Guidelines
+### Основные рекомендации
 
-- "Explicit is better than implicit" - [PEP 20][]
-- "Readability counts." - [PEP 20][]
-- "Anybody can fix anything." - [Khan Academy Development Docs][]
-- Fix each [broken window](http://www.artima.com/intv/fixit2.html) (bad design, wrong decision, or poor code) *as soon as it is discovered*.
-- "Now is better than never." - [PEP 20][]
-- Test ruthlessly. Write docs for new features.
+- "Явное лучше, чем неявное." - [PEP 20][]
+- "Читабельность важна." - [PEP 20][]
+- "Кто угодно может поправить что угодно." - [Khan Academy Development Docs][]
+- Исправляй каждый [недочет](http://www.artima.com/intv/fixit2.html) (неудачный дизайн, неправильное решение, неудачный код) *как только заметил его*.
+- "Лучше сейчас, чем никогда." - [PEP 20][]
+- Тестируй самым тщательным образом. Пиши документацию на каждую новую фишку.
 - Even more important that Test-Driven Development--*Human-Driven Development*
-- These guidelines may--and probably will--change.
+- Эти рекомендации могут и, конечно, будут меняться.
 
-## In Particular
+## В частностях
 
-### Style
+### Стиль
 
-Follow [PEP 8][], when sensible.
+Следуй стандарту [PEP 8][], когда возможно.
 
 #### Naming
 
-- Variables, functions, methods, packages, modules
-    - `lower_case_with_underscores`
-- Classes and Exceptions
-    - `CapWords`
-- Protected methods and internal functions
-    - `_single_leading_underscore(self, ...)`
-- Private methods
-    - `__double_leading_underscore(self, ...)`
-- Constants
-    - `ALL_CAPS_WITH_UNDERSCORES`
+- Переменные, функции, методы, пакеты, модули
+    - `маленькие_буквы_с_подчеркиванием_между_словами`
+- Классы и исключения
+    - `СБольшойБуквы`, `CamelCase`
+- Protected-методы внутренние функции
+    - `_начиная_с_нижнего_подчеркивания(self, ...)`
+- Private-методы
+    - `__начиная_с_двойного_подчеркивания(self, ...)`
+- Константы
+    - `ВСЕМИ_ЗАГЛАВНЫМИ_БУКВАМИ`
 
 ###### General Naming Guidelines 
 
